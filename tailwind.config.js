@@ -1,18 +1,38 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      colors: {
+        "color-primary": "#ffffff",
+        "color-primary-light": "#020726",
+        "color-primary-dark": "#240047",
+        "color-secondary": "#8652ff",
+        "color-gray": "#333",
+        "color-gray-light": "#240047",
+        "color-white": "#fff",
+        "color-blob": "#A427DF",
+        "color-blob-light": "#240047",
+        'regal-blue': '#240047',
+      }
     },
+    fontFamily: {
+      sans: ["Centra No2,sans-serif", "sans-serif"],
+      serif: ["Inter", "sans-serif"],
+      mono: ["Inter", "sans-serif"],
+    },
+    
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '20px',
+      }
+    }
   },
+
   plugins: [],
-}
+};
