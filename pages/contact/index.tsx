@@ -118,30 +118,43 @@ const ContactPage = () => {
         <section className=" py-20  text-center">
         <div className="container flex justify-between text-black">
           <div className="w-1/3">
-            <p className="text-xl font-bold">
-              Contenido de la columna 1
+          <p className="text-xl">
+              Director del proyecto
+              <br />
+              Ing. Luis Castillo, Mgtr.
+              <br />
+              Implementación de aplicaciones web y móvil para gestionar emergencias comunitarias en la provincia de Santo Domingo de los Tsáchilas
             </p>
           </div>
           <div className="w-1/3">
-            <p className="text-xl font-bold">
-              Contenido de la columna 2
+          <p className="text-xl ">
+              Teléfono convencional
+              <br />
+              (02) 272-2246
+              <br />
+              ESPE sede Santo Domingo
             </p>
           </div>
           <div className="w-1/3">
-            <p className="text-xl font-bold">
-              Contenido de la columna 3
+          <p className="text-xl">
+              Correo electrónico
+              <br />
+              lacastillo12@esp.edu.ec
             </p>
           </div>
         </div>
       </section>
-      <section className="py-100 text-center">
+      <section className="py-20 text-center bg-color-secondary">
+        <p className="text-xl font-bold">
+
+        
         {/* Agrega aquí el código del mapa */}
 
         <div  className="container flex justify-center text-black " style={{ height: '400px' }}>
-        <iframe className="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14362.34376615065!2d-79.3174620878782!3d-0.41326645086554714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d53237044f39bb%3A0x24ed753bfe34c98b!2sUniversidad%20de%20las%20Fuerzas%20Armadas%20-%20ESPE%20-%20Santo%20Domingo!5e0!3m2!1sen!2sec!4v1688466546265!5m2!1sen!2sec" 
-        width="900" height="450" 
+        <iframe className="mt-5 mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14362.34376615065!2d-79.3174620878782!3d-0.41326645086554714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d53237044f39bb%3A0x24ed753bfe34c98b!2sUniversidad%20de%20las%20Fuerzas%20Armadas%20-%20ESPE%20-%20Santo%20Domingo!5e0!3m2!1sen!2sec!4v1688466546265!5m2!1sen!2sec" 
+        width="900" height="400" 
          loading="lazy" ></iframe>
-        </div>
+        </div></p>
       </section>
       </Layout>
     </>
