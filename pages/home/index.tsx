@@ -56,7 +56,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="md:w-1/2">
-              <Image src={mypic} width={500} height={500} alt="hero" />
+
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ const HomePage = () => {
           <p className="leading-relaxed mb-4 text-3xl  text-center font-bold  text-color-primary">
             Por una comunidad segura
           </p>
-          <div className="flex flex-col items-center justify-center md:flex-row text-color-primary">
+          <div className="flex flex-col items-center justify-center md:flex-row text-color-primary md:ml-20 mr-20">
             {/* <div className="mb-1 md:w-2/4 ">
               <Image
                 src="/images/menusession2.webp"
@@ -80,7 +80,10 @@ const HomePage = () => {
                 className="rounded-lg"
               />
             </div> */}
-            <div className="text-center md:text-left md:full md:ml-12">
+            <div className="mb-6 md:w-100 md:mr-10">
+              <Image src="/images/menusession2.webp" width={2000} height={2000} alt="hero"/>
+            </div>
+            <div className="text-center md:text-left md:w-50 md:ml-12">
               <p className=" ">
                 Seguridad ESPE nace a partir del proyecto de vinculación con la
                 sociedad {`"`}Implementación de aplicaciones web y móvil para
@@ -169,7 +172,7 @@ const HomePage = () => {
       </section>
       <section id="saving-money" className="bg-color-secondary">
         <div className="container py-20 relative">
-          <p className="leading-relaxed mb-4 text-2xl  text-center  text-color-primary">
+          <p className="leading-relaxed mb-4 text-xl  text-center  text-color-primary md:mr-20 ml-20">
             Proporciona una solución tecnológica que permite gestionar
             situaciones de emergencia comunitaria y mejorar la seguridad en la
             comunidad.
@@ -177,44 +180,67 @@ const HomePage = () => {
 
           <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8">
             <div className="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl   ease-in duration-200">
-              <h3 className="text-xl font-bold py-4">Misión</h3>
+              <h3 className="text-xl font-bold py-4">Reportes en tiempo real</h3>
               <p className="text-left">
-                Brindar una solución tecnológica que permita gestionar
-                situaciones de emergencia comunitaria y mejorar la seguridad en
-                la comunidad.
+              <Image src="/images/reportar.jpg" width={500} height={500} alt="hero2"/>
               </p>
             </div>
             <div className="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl   ease-in duration-200">
-              <h3 className="text-xl font-bold py-4">Visión</h3>
+              <h3 className="text-xl font-bold py-4">Noticias al instante</h3>
               <p className="text-left">
-                Ser una aplicación reconocida a nivel nacional por su
-                contribución a la seguridad de la comunidad.
+              <Image src="/images/noticias-al-instante.png" width={500} height={500} alt="hero2"/>
               </p>
             </div>
             <div className="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl   ease-in duration-200">
-              <h3 className="text-xl font-bold py-4">Valores</h3>
-
-              <ul className="text-left list-disc list-inside">
-                <li className="py-2">
-                  <b>Responsabilidad:</b> Cumplir con las obligaciones y
-                  compromisos adquiridos.
-                </li>
-                <li className="py-2">
-                  <b>Respeto:</b> Reconocer y aceptar las cualidades y derechos
-                  de los demás.
-                </li>
-              </ul>
+              <h3 className="text-xl font-bold py-4">Chat inmediato</h3>
+              <p>
+              <Image src="/images/chat-inmediato.jpg" width={500} height={500} alt="hero2"/>
+              </p>
             </div>
             <div className="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl   ease-in duration-200">
-              <h3 className="text-xl font-bold py-4">Objetivos</h3>
-              <p className="text-left">ad</p>
+              <h3 className="text-xl font-bold py-4">Agregar lugares</h3>
+              <p className="text-left">
+              <Image src="/images/hero.png" width={500} height={500} alt="hero2"/>
+              </p>
             </div>
           </div>
         </div>
       </section>
       <section id="saving-money" className="bg-color-primary">
-        <div className="container py-20 relative">wfe</div>
-      </section>
+      <div className="container py-20 relative">
+        <div className="flex flex-col md:flex-row items-center justify-center md:justify-between">
+          <div className="text-center md:text-left md:flex-1 ml-32 mr-32">
+            <p className="leading-relaxed">
+              Por medio de la aplicación móvil se reportarán emergencias
+              comunitarias proporcionando detalles precisos del incidente y las
+              autoridades competentes podrán acudir en su ayuda. Además, cuenta
+              con un botón SOS para solicitar ayuda inmediata.
+            </p>
+            <br />
+            <p>
+              La aplicación web tiene como objetivo principal brindar reportes
+              estadísticos detallados sobre diversos tipos de incidentes en la
+              zona Luz de América. Cuenta con la opción de filtrar los incidentes
+              según su ubicación, tipo, fecha y hora, permitiéndote acceder a
+              datos específicos y relevantes para un determinado análisis.
+            </p>
+            <br />
+            <p>
+              La aplicación web complementa la aplicación móvil al proporcionar
+              reportes estadísticos detallados sobre los diversos tipos de
+              incidentes en la zona de Luz de América. A través de la plataforma,
+              las autoridades y responsables de la toma de decisiones pueden
+              acceder a informes que brindan una visión general de la situación
+              de seguridad en la comunidad.
+            </p>
+          </div>
+          <div className="mb-4 md:w-60 md:mr-52 ml-12">
+          <Image src="/images/hero.png" width={2000} height={2000} alt="hero2"/>
+          <Image src="/images/menusession2.webp" width={2000} height={2000} alt="hero"/>
+          </div>
+        </div>
+      </div>
+    </section>
 
     </>
   );
