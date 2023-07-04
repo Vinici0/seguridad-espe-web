@@ -9,19 +9,27 @@ const Navbar = () => {
     [key: string]: {
       name: string;
       link: string;
+      
     };
   }
 
   const menuItems: MenuItems = {
     home: {
-      name: "Quienes Somos",
-      link: "/",
+      name: "Inicio",
+      link: "/",  
     },
     reports: {
       name: "Reportes",
       link: "/reports",
     },
-    contact: {
+    equipo:{
+      name: "Nuestro Equipo",
+      link:"/nuestroequipo",
+    },
+    filosofia:{
+      name: "Filosofía",
+      link: "/filosofia",
+    },contact: {
       name: "Contacto",
       link: "/contact",
     },

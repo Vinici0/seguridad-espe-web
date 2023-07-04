@@ -6,6 +6,44 @@ const ReportsPage = () => {
   return (
     <>
       <Layout title="Reportes">
+        
+      <section id="" className="">
+        <div className="container py-8 ">
+          <div className="flex flex-col items-center justify-center mb-4 space-x-4 w-2/4 px-5 mx-7">
+            <p className="leading-relaxed text-xl font-bold text-center text-color-primary">
+              
+            </p>
+          </div>
+          
+        </div>
+        </section>
+        <section id="saving-money" className="bg-gray-500">
+        <div className="container py-8  relative">
+          <div className="flex flex-col items-center justify-center">
+            <p className="leading-relaxed text-xl font-bold text-center text-color-primary">
+            ANALÍTICA DE LOS INCIDENTES
+            </p>
+          </div>
+          
+        </div>
+        </section>
+        <section id="saving-money" className="bg-color-secondary">
+        <div className="container py-8 relative">
+          <div className="flex flex-col items-center justify-center mb-4">
+            <p className="leading-relaxed text-xl font-bold text-center text-color-primary">
+              INFORME DE INCIDENTES DE LA PARROQUIA LUZ DE AMÉRICA
+            </p>
+            <div className="flex mt-4">
+              <button className="bg-red-500 text-white px-4 py-2 mr-4">
+                Descargar PDF
+              </button>
+              <button className="bg-green-500 text-white px-4 py-2">
+                Descargar CSV
+              </button>
+            </div>
+          </div>
+        </div>
+        </section>
         <section className="relative">
           <div className="container py-20 bg-slate-400 ">
             <div className="flex flex-row items-center justify-center bg-slate-300 w-2/4 max-sm:w-full max-sm:flex-col max-sm:items-start">
@@ -25,6 +63,7 @@ const ReportsPage = () => {
             </div>
           </div>
         </section>
+        
       </Layout>
     </>
   );

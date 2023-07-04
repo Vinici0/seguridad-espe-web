@@ -56,8 +56,12 @@ const HomePage = () => {
               </div>
             </div>
             <div className="md:w-1/2">
-
-            </div>
+      <video controls width="100%" height="auto">
+        <source src="/images/SeguridadESPE-03.mp4" type="video/mp4" />
+        {/* Agrega más etiquetas <source> aquí para proporcionar diferentes formatos del video para navegadores diferentes */}
+        Tu navegador no admite el elemento de video.
+      </video>
+    </div>
           </div>
         </div>
       </section>
