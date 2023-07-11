@@ -21,9 +21,12 @@ module.exports = {
       }
     },
     fontFamily: {
-      sans: ["Centra No2,sans-serif", "sans-serif"],
-      serif: ["Inter", "sans-serif"],
-      mono: ["Inter", "sans-serif"],
+      "geologica": ["Geologica", "sans-serif"],
+      "outfit": ["Outfit", "sans-serif"],
+      "poppins": ["Poppins", "sans-serif"],
+      // serif: ["Inter", "sans-serif"],
+      // mono: ["Inter", "sans-serif"],
+      // poppins: ['Poppins', 'sans-serif']
     },
     
     container: {
