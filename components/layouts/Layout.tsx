@@ -13,20 +13,19 @@ export const Layout: FC<Props> = ({ children, title }) => {
   return (
     <>
       <Head>
-        <title>{title || "PokemonApp"}</title>
+        <title>{title || "Seguridad ESPE"}</title>
         <meta name="author" content="Vinicio Borja y Marria Parrga" />
         <meta
           name="description"
           content={`Información sobre el pokémon ${title}`}
         />
-        <meta name="keywords" content={`${title}, pokemon, pokedex`} />
+        <meta name="keywords" content={`${title}, Seguridad, ESPE`} />
       </Head>
       <Navbar />
-      <main
-      >
+      <main>
         {children}
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 };
